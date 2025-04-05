@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/forms";
+
+@theme {
+	--color-primary: #d7ff65;
+	--color-secondary-100: #727178;
+	--color-secondary-200: #2d2f33;
+	--color-secondary-300: #abb2bd;
+	--color-neutral-100: #fafafa;
+	--color-neutral-200: #eff1f5;
+	--color-gray-100: #dfe1e5;
+	--color-gray-200: #acb1bd;
+	--color-gray-300: #b1b1ba;
+	--leading-base: 1;
+}
