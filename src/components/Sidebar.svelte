@@ -2,7 +2,9 @@
 	import { arrow_left_down, layer, logo, logo_icon, maximize } from './icons/Icons.svelte';
 </script>
 
-<aside class=" flex h-dvh max-w-21 flex-col items-center justify-between bg-neutral-100 pt-6 pb-4">
+<aside
+	class="sticky top-0 flex h-dvh max-w-21 flex-col items-center justify-between bg-neutral-100 pt-6 pb-4"
+>
 	<div class="grid justify-items-center gap-1.5">
 		<div>{@render logo()}</div>
 		<p class=" text-secondary-200 text-base/normal font-medium tracking-tight">AI-BL</p>
